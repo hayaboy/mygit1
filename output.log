@@ -1,0 +1,55 @@
+[10:42:21][INFO ](ContextLoader.java:285)-Root WebApplicationContext: initialization started
+[10:42:22][INFO ](AbstractApplicationContext.java:510)-Refreshing Root WebApplicationContext: startup date [Tue Sep 13 10:42:22 KST 2022]; root of context hierarchy
+[10:42:22][INFO ](XmlBeanDefinitionReader.java:317)-Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/action-mybatis.xml]
+[10:42:22][INFO ](PropertiesLoaderSupport.java:172)-Loading properties file from ServletContext resource [/WEB-INF/config/jdbc/jdbc.properties]
+[10:42:22][TRACE](PropertyPlaceholderHelper.java:165)-Resolved placeholder 'jdbc.driverClassName'
+[10:42:22][TRACE](PropertyPlaceholderHelper.java:165)-Resolved placeholder 'jdbc.url'
+[10:42:22][TRACE](PropertyPlaceholderHelper.java:165)-Resolved placeholder 'jdbc.username'
+[10:42:22][TRACE](PropertyPlaceholderHelper.java:165)-Resolved placeholder 'jdbc.password'
+[10:42:22][DEBUG](UiApplicationContextUtils.java:85)-Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@5cb8580]
+[10:42:22][DEBUG](Slf4jImpl.java:43)-Logging initialized using 'org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[10:42:22][DEBUG](Slf4jImpl.java:43)-PooledDataSource forcefully closed/removed all connections.
+[10:42:22][DEBUG](Slf4jImpl.java:43)-PooledDataSource forcefully closed/removed all connections.
+[10:42:22][DEBUG](Slf4jImpl.java:43)-PooledDataSource forcefully closed/removed all connections.
+[10:42:22][DEBUG](Slf4jImpl.java:43)-PooledDataSource forcefully closed/removed all connections.
+[10:42:22][DEBUG](Slf4jImpl.java:43)-Parsed configuration file: 'class path resource [mybatis/model/modelConfig.xml]'
+[10:42:22][DEBUG](Slf4jImpl.java:43)-Created connection 1554303114.
+[10:42:22][DEBUG](Slf4jImpl.java:43)-Returned connection 1554303114 to pool.
+[10:42:22][DEBUG](Slf4jImpl.java:43)-Parsed mapper file: 'file [C:\Users\409\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\pro27\WEB-INF\classes\mybatis\mappers\member.xml]'
+[10:42:22][DEBUG](JndiTemplate.java:150)-Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+[10:42:22][DEBUG](JndiLocatorSupport.java:101)-Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.
+[10:42:22][DEBUG](JndiTemplate.java:150)-Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+[10:42:22][DEBUG](JndiPropertySource.java:90)-JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.. Returning null.
+[10:42:22][INFO ](ContextLoader.java:325)-Root WebApplicationContext: initialization completed in 964 ms
+[10:42:22][INFO ](FrameworkServlet.java:484)-FrameworkServlet 'appServlet': initialization started
+[10:42:22][DEBUG](JndiTemplate.java:150)-Looking up JNDI object with name [java:comp/env/spring.profiles.active]
+[10:42:22][DEBUG](JndiLocatorSupport.java:101)-Converted JNDI name [java:comp/env/spring.profiles.active] not found - trying original name [spring.profiles.active]. javax.naming.NameNotFoundException: Name [spring.profiles.active]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.active]을(를) 찾을 수 없습니다.
+[10:42:22][DEBUG](JndiTemplate.java:150)-Looking up JNDI object with name [spring.profiles.active]
+[10:42:22][DEBUG](JndiPropertySource.java:90)-JNDI lookup for name [spring.profiles.active] threw NamingException with message: Name [spring.profiles.active]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.active]을(를) 찾을 수 없습니다.. Returning null.
+[10:42:22][DEBUG](JndiTemplate.java:150)-Looking up JNDI object with name [java:comp/env/spring.profiles.default]
+[10:42:22][DEBUG](JndiLocatorSupport.java:101)-Converted JNDI name [java:comp/env/spring.profiles.default] not found - trying original name [spring.profiles.default]. javax.naming.NameNotFoundException: Name [spring.profiles.default]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.default]을(를) 찾을 수 없습니다.
+[10:42:22][DEBUG](JndiTemplate.java:150)-Looking up JNDI object with name [spring.profiles.default]
+[10:42:22][DEBUG](JndiPropertySource.java:90)-JNDI lookup for name [spring.profiles.default] threw NamingException with message: Name [spring.profiles.default]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.default]을(를) 찾을 수 없습니다.. Returning null.
+[10:42:22][DEBUG](JndiTemplate.java:150)-Looking up JNDI object with name [java:comp/env/spring.profiles.default]
+[10:42:22][DEBUG](JndiLocatorSupport.java:101)-Converted JNDI name [java:comp/env/spring.profiles.default] not found - trying original name [spring.profiles.default]. javax.naming.NameNotFoundException: Name [spring.profiles.default]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.default]을(를) 찾을 수 없습니다.
+[10:42:22][DEBUG](JndiTemplate.java:150)-Looking up JNDI object with name [spring.profiles.default]
+[10:42:22][DEBUG](JndiPropertySource.java:90)-JNDI lookup for name [spring.profiles.default] threw NamingException with message: Name [spring.profiles.default]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.default]을(를) 찾을 수 없습니다.. Returning null.
+[10:42:22][INFO ](AbstractApplicationContext.java:510)-Refreshing WebApplicationContext for namespace 'appServlet-servlet': startup date [Tue Sep 13 10:42:22 KST 2022]; parent: Root WebApplicationContext
+[10:42:22][INFO ](XmlBeanDefinitionReader.java:317)-Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/appServlet/servlet-context.xml]
+[10:42:23][INFO ](AutowiredAnnotationBeanPostProcessor.java:153)-JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[10:42:23][DEBUG](UiApplicationContextUtils.java:85)-Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.DelegatingThemeSource@fe38c0e]
+[10:42:23][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.myspring.pro27.HomeController.home(java.util.Locale,org.springframework.ui.Model)
+[10:42:23][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/member/*Form.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.myspring.pro27.member.controller.MemberControllerImpl.form(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+[10:42:23][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/member/listMembers.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.myspring.pro27.member.controller.MemberControllerImpl.listMembers(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+[10:42:23][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/member/addMember.do],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.myspring.pro27.member.controller.MemberControllerImpl.addMember(com.myspring.pro27.member.vo.MemberVO,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+[10:42:23][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/member/removeMember.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.myspring.pro27.member.controller.MemberControllerImpl.removeMember(java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+[10:42:24][INFO ](RequestMappingHandlerAdapter.java:523)-Looking for @ControllerAdvice: WebApplicationContext for namespace 'appServlet-servlet': startup date [Tue Sep 13 10:42:22 KST 2022]; parent: Root WebApplicationContext
+[10:42:24][INFO ](RequestMappingHandlerAdapter.java:523)-Looking for @ControllerAdvice: WebApplicationContext for namespace 'appServlet-servlet': startup date [Tue Sep 13 10:42:22 KST 2022]; parent: Root WebApplicationContext
+[10:42:24][INFO ](AbstractUrlHandlerMapping.java:315)-Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+[10:42:24][DEBUG](JndiTemplate.java:150)-Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+[10:42:24][DEBUG](JndiLocatorSupport.java:101)-Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.
+[10:42:24][DEBUG](JndiTemplate.java:150)-Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+[10:42:24][DEBUG](JndiPropertySource.java:90)-JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.. Returning null.
+[10:42:24][INFO ](FrameworkServlet.java:503)-FrameworkServlet 'appServlet': initialization completed in 1450 ms
+[10:49:01][INFO ](AbstractApplicationContext.java:862)-Closing WebApplicationContext for namespace 'appServlet-servlet': startup date [Tue Sep 13 10:42:22 KST 2022]; parent: Root WebApplicationContext
+[10:49:01][INFO ](AbstractApplicationContext.java:862)-Closing Root WebApplicationContext: startup date [Tue Sep 13 10:42:22 KST 2022]; root of context hierarchy
